@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<UserBloc>(
-      create: (context) => UserBloc(usersRepository: usersRepository),
+      create: (context) => UserBloc(usersRepository),
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
